@@ -18,6 +18,7 @@ interface ContactsState {
   updateLoading: boolean;
 }
 
+
 const initialState: ContactsState = {
   items: [],
   oneContact: null,

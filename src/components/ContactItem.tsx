@@ -4,6 +4,7 @@ const ContactItem = ({ contact, onClick }: any) => (
       <span>{contact.name}</span>
     </div>
   );
-  
+
+
   export default ContactItem;
   

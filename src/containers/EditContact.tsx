@@ -41,6 +41,7 @@ const EditContact = () => {
         isLoading={updating}
       />
     )
+    
   );
 };
 

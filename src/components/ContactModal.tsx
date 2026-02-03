@@ -6,6 +6,7 @@ const ContactModal = ({ contact, onClose, onDelete, onEdit }: any) => (
         <h3>{contact.name}</h3>
         <p>{contact.phone}</p>
         <p>{contact.email}</p>
+          
   
         <div className="modal-actions">
           <button onClick={onEdit}>Edit</button>

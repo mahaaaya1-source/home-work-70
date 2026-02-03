@@ -15,6 +15,7 @@ export const fetchContacts = createAsyncThunk<ContactWithId[]>(
   }
 );
 
+
 export const createContact = createAsyncThunk<void, Contact>(
   'contacts/create',
   async (contact) => {
